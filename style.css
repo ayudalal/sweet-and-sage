@@ -507,6 +507,70 @@ footer {
   border: 7px solid var(--green-color);
 }
 /**/
+/*entry4 html*/
+.hero-entry4 {
+  background: var(--light-color);
+  padding: 10px 0; 
+}
+.titleEntry4 {
+  font-size: var(--font-size-xxl);
+  background-color: var(--light-green-color);
+  color: var(--dark-color);
+  margin-bottom: 7.5px;
+  text-align: center;
+  border: 10px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+}
+.dateEntry4 {
+  font-size: var(--font-size-m);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-semibold);
+}
+.contentEntry4 {
+  background: var(--light-green-color);
+  border: 8px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin-top: 30px;
+}
+.contentEntry4 h3 {
+  color: var(--dark-color);
+  font-size: var(--font-size-l);
+  margin-bottom: 10px;
+}
+.contentEntry4 h4 {
+  color: var(--dark-color);
+  font-size: var(--font-size-xl);
+  margin-bottom: 10px;
+}
+.contentEntry4 ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.contentEntry4 li {
+  margin-bottom: 10px;
+}
+.contentEntry4 ol {
+  padding-left: 20px;
+}
+.contentEntry4 ol li {
+  margin-bottom: 20px;
+  font-size: var(--font-size-m);
+}
+.hero-entry4 p {
+  font-size: var(--font-size-m);
+  line-height: 1.7;
+  color: var(--dark-color);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.contentEntry4 ol img {
+  width: 100%;
+  max-width: 300px; 
+  border-radius: var(--border-radius-m);
+  border: 7px solid var(--pink-color);
+}
+/**/
 /*FOOD*/
 .food-page {
   background: var(--light-color);
@@ -626,6 +690,40 @@ footer {
   margin-top: 0.25rem;
 }
 /**/
+.entry-4dessert {
+  width: 700px;
+  border: 15px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--pink-color);
+}
+.entry-4dessert img {
+  width: 300px;
+  height: auto;
+  border-radius: var(--border-radius-m);
+  max-width: 100%;
+  height: auto;
+}
+.entry-4dessert a[class^="post4"] {
+  display: right block;        
+  font-size: var(--font-size-xl);        
+  font-weight: bold;
+  color: var(--dark-color);          
+  text-decoration: none;
+  margin-top: 0.5rem;          
+}
+.entry-4dessert a[class^="post4"]:hover {
+  color: var(--green-color);
+  text-decoration: underline;
+}
+.entry-4dessert time {
+  display: block;
+  font-size: var(--font-size-m);
+  color: var(--dark-color); 
+  margin-top: 0.25rem;
+}
+/**/
 /*DRINK*/
 .drink-page {
   background: var(--light-color);
@@ -739,6 +837,8 @@ footer {
   .entry-1,
   .entry-2,
   .entry-3,
+  .entry-4,
+  .entry-4dessert,
   .entry-3food,
   .entry-2dessert,
   .entry-1drink {
@@ -758,6 +858,7 @@ footer {
     text-align: center;
   }
   .hero-details img,
+  .entry-4dessert img,
   .entry-3food img,
   .entry-2dessert img,
   .entry-1drink img {
@@ -766,6 +867,7 @@ footer {
     max-width: 100%;
   }
   .hero-details li a[class^="post"],
+  .entry-4dessert a[class^="post4"],
   .entry-3food a[class^="post3"],
   .entry-2dessert a[class^="post2"],
   .entry-1drink a[class^="post1"] {
