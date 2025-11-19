@@ -199,6 +199,14 @@ main {
   color: var(--dark-color); 
   margin-top: 0.25rem;
 }
+.entry-5 {
+  width: 700px;
+  border: 15px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--pink-color);
+}
 .entry-4 {
   width: 700px;
   border: 15px solid var(--green-color);
@@ -579,6 +587,70 @@ footer {
   border: 7px solid var(--pink-color);
 }
 /**/
+/*entry5 html*/
+.hero-entry5 {
+  background: var(--light-color);
+  padding: 10px 0; 
+}
+.titleEntry5 {
+  font-size: var(--font-size-xxl);
+  background-color: var(--light-pink-color);
+  color: var(--dark-color);
+  margin-bottom: 7.5px;
+  text-align: center;
+  border: 10px solid var(--pink-color);
+  border-radius: var(--border-radius-m);
+}
+.dateEntry5 {
+  font-size: var(--font-size-m);
+  color: var(--dark-color);
+  font-weight: var(--font-weight-semibold);
+}
+.contentEntry5 {
+  background: var(--light-pink-color);
+  border: 8px solid var(--pink-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin-top: 30px;
+}
+.contentEntry5 h3 {
+  color: var(--dark-color);
+  font-size: var(--font-size-l);
+  margin-bottom: 10px;
+}
+.contentEntry5 h4 {
+  color: var(--dark-color);
+  font-size: var(--font-size-xl);
+  margin-bottom: 10px;
+}
+.contentEntry5 ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.contentEntry5 li {
+  margin-bottom: 10px;
+}
+.contentEntry5 ol {
+  padding-left: 20px;
+}
+.contentEntry5 ol li {
+  margin-bottom: 20px;
+  font-size: var(--font-size-m);
+}
+.hero-entry5 p {
+  font-size: var(--font-size-m);
+  line-height: 1.7;
+  color: var(--dark-color);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.contentEntry5 ol img {
+  width: 100%;
+  max-width: 400px; 
+  border-radius: var(--border-radius-m);
+  border: 7px solid var(--green-color);
+}
+/**/
 /*FOOD*/
 .food-page {
   background: var(--light-color);
@@ -732,6 +804,40 @@ footer {
   margin-top: 0.25rem;
 }
 /**/
+.entry-5dessert {
+  width: 700px;
+  border: 15px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--pink-color);
+}
+.entry-5dessert img {
+  width: 300px;
+  height: auto;
+  border-radius: var(--border-radius-m);
+  max-width: 100%;
+  height: auto;
+}
+.entry-5dessert a[class^="post5"] {
+  display: right block;        
+  font-size: var(--font-size-xl);        
+  font-weight: bold;
+  color: var(--dark-color);          
+  text-decoration: none;
+  margin-top: 0.5rem;          
+}
+.entry-5dessert a[class^="post5"]:hover {
+  color: var(--green-color);
+  text-decoration: underline;
+}
+.entry-5dessert time {
+  display: block;
+  font-size: var(--font-size-m);
+  color: var(--dark-color); 
+  margin-top: 0.25rem;
+}
+/**/
 /*DRINK*/
 .drink-page {
   background: var(--light-color);
@@ -846,6 +952,8 @@ footer {
   .entry-2,
   .entry-3,
   .entry-4,
+  .entry-5,
+  .entry-5dessert,
   .entry-4dessert,
   .entry-3food,
   .entry-2dessert,
@@ -866,6 +974,7 @@ footer {
     text-align: center;
   }
   .hero-details img,
+  .entry-5dessert img,
   .entry-4dessert img,
   .entry-3food img,
   .entry-2dessert img,
@@ -875,6 +984,7 @@ footer {
     max-width: 100%;
   }
   .hero-details li a[class^="post"],
+  .entry-5dessert a[class^="post5"]
   .entry-4dessert a[class^="post4"],
   .entry-3food a[class^="post3"],
   .entry-2dessert a[class^="post2"],
