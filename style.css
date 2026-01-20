@@ -199,6 +199,14 @@ main {
   color: var(--dark-color); 
   margin-top: 0.25rem;
 }
+.entry-6 {
+  width: 700px;
+  border: 15px solid var(--green-color);
+  border-radius: var(--border-radius-m);
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--pink-color);
+}
 .entry-5 {
   width: 700px;
   border: 15px solid var(--green-color);
